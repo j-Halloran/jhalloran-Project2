@@ -65,7 +65,7 @@ button{
 }
 
 #searchBar{
-  width: 30%;
+  width: 60%;
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
@@ -79,6 +79,15 @@ button{
 }
 
 #searchBar:focus{
+  width: 110%;
+}
+
+#intResponsePara{
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+
+#searchHolder{
   width: 100%;
 }
 
@@ -101,6 +110,15 @@ button{
 .about-container-div{
   float: left;
   left: 33%;
+  position: relative;
+  margin-top: 5%;
+  max-width: 600px;
+  color: #192857;
+}
+
+.about-container-div1{
+  float: left;
+  left: 38%;
   position: relative;
   margin-top: 5%;
   max-width: 600px;

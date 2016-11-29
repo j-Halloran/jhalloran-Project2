@@ -78,17 +78,18 @@
           </p>
         </div>
 
-        <div id="otherInterests" class = "about-container-div">
-          <p id="searchPara">Enter a category to see my favorite things:</p>
-          <div id="interestsFormHolder">
-            <div id="interestsForm">
-              <form name="interest-form" method="get" action="/" id="interestsForm">
-                  <input type="text" name="search" id="searchBar" placeholder="Search..">
-              </form>
+        <div id="otherInterests" class = "about-container-div1">
+          <div id="searchHolder">
+            <p id="searchPara">Enter a category to see my favorite things:</p>
+            <div id="interestsFormHolder">
+              <div id="interestsForm">
+                <form name="interest-form" method="get" action="/" id="interestsForm">
+                    <input type="text" name="search" id="searchBar" placeholder="Search..">
+                </form>
+              </div>
             </div>
+            <p id="intResponsePara"></p>
           </div>
-
-
         </div>
       </div>
     </div>

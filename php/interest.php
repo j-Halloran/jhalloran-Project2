@@ -8,13 +8,9 @@
   $favorite = '';
   $category = '';
 
-  $value = reset($_POST);
-  echo($_POST);
+
   foreach ($_POST as $k => $v) {
-    echo("Key: ".$k." value: ".$v."/n");
-    if($k == "search"){
-      $category = mysql_real_escape_string($v);
-    }
+    $category = $k;
   }
 
   //open db connection
@@ -28,9 +24,7 @@
   $result = $conn->query($sql);
 
   if(mysqli_num_rows($result) > 0){
-    echo(mysqli_num_rows($result));
     while($row = $result->fetch_assoc()){
-      echo($row['category']."<br>");
       if($row["category"]==$category){
         $favorite = "Jake's favorite ".$category." is ".$row['favorite']."!";
         break;

@@ -5,6 +5,9 @@ $(document).ready(function(){
   $("#classesDiv").hide();
   $("#introDiv").show();
 
+  //hide the search response
+  $("#intResponsePara").hide()
+
   //Event listener for intro button
   $("#intro").click(function(event){
     $("#languagesDiv").hide();
@@ -32,14 +35,15 @@ $(document).ready(function(){
 
   //Event listener for search
   $("#interestsForm").submit(function(event){
-    console.log("working");
       //Use ajax to pass form data without a page refresh
       $.ajax({
             type: 'post',
             url: './php/interest.php',
-            data: $('#interestsForm').serialize(),
+            data: $('#searchBar').val(),
             success: function (response) {
-              console.log(response);
+              $("#intResponsePara").text(response);
+              $("#intResponsePara").show();
+              $('#searchBar').val('');
             }
       });
 
