@@ -64,6 +64,32 @@ button{
   position: absolute;
 }
 
+#searchBar{
+  width: 30%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('../images/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+
+#searchBar:focus{
+  width: 100%;
+}
+
+#searchPara{
+  position: relative;
+  margin-top: 15%
+  text-align: center;
+  color: #192857;
+  font-size: 1.4rem;
+}
+
 .image-container2{
   float: right;
   margin-left: 40px;
@@ -173,6 +199,8 @@ a:hover{
 }
 
 #resumeFrame{
+  margin: auto;
+  width: 1280px;
   border: 0;
   background-color: #D3D3D3;
 }

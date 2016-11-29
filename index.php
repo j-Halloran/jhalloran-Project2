@@ -78,20 +78,22 @@
           </p>
         </div>
 
-        <div id="otherInterests" class="about-container-div">
-          <div id="interestsPicture" class ="image-container">
-            <img src="./images/football.jpg" alt="Football Picture" id="footballPic"></img>
+        <div id="otherInterests" class = "about-container-div">
+          <p id="searchPara">Enter a category to see my favorite things:</p>
+          <div id="interestsFormHolder">
+            <div id="interestsForm">
+              <form name="interest-form" method="get" action="/" id="interestsForm">
+                  <input type="text" name="search" id="searchBar" placeholder="Search..">
+              </form>
+            </div>
           </div>
 
-          <p class="content-para">
-            Outside of school work and coding my interests mostly include football and eating.
-            Honestly, probably excessive amounts of both. As far as life goals, I generally am just
-            trying to make it one day at a time.
+
         </div>
       </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="./js/project1_about.js"></script>
+    <script src="./js/project2_about.js"></script>
   </body>
 </html>

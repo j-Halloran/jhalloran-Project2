@@ -27,5 +27,22 @@ $(document).ready(function(){
     $("#languagesDiv").hide();
     $("#classesDiv").hide();
     $("#otherInterests").show();
+    $("#interestsPicture1").hide();
+  });
+
+  //Event listener for search
+  $("#interestsForm").submit(function(event){
+    console.log("working");
+      //Use ajax to pass form data without a page refresh
+      $.ajax({
+            type: 'post',
+            url: './php/interest.php',
+            data: $('#interestsForm').serialize(),
+            success: function (response) {
+              console.log(response);
+            }
+      });
+
+    return false; //dont refresh page
   });
 });
