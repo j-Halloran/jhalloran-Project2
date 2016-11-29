@@ -1,0 +1,260 @@
+/*Yes I know this is terrible semantics wise, sorry*/
+*{
+  margin: 0; padding: 0;
+  }
+
+html, body{
+  font-family: "palatino linotype";
+  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: transparent;
+  background-color: #D3D3D3;
+}
+
+#navBar{
+  display:block;
+  text-align: center;
+  list-style: none;
+  background-color: #192857;
+  color: #cdb87d;
+  font-size:130%;
+}
+
+#aboutButtons{
+  width: 1200px;
+  float: left;
+  left: 27%;
+  position: absolute;
+  margin-top: 1%;
+}
+
+button{
+  max-width: 300px;
+  padding: 20px;
+}
+
+#contentHolder{
+  margin: 10px auto;
+}
+
+
+#cathyPic{
+  max-width: 320px;
+  max-width: 240px;
+}
+
+#codingPic{
+  max-width: 320px;
+  max-width: 240px;
+}
+
+#footballPic{
+  max-width: 320px;
+  max-width: 240px;
+}
+
+#designPic{
+  max-width: 320px;
+  max-width: 240px;
+}
+
+#classesDiv{
+  margin-top: 15%;
+  position: absolute;
+}
+
+.image-container2{
+  float: right;
+  margin-left: 40px;
+  padding-left: 5px:
+  width: 320px;
+  height: 240px;
+  display: inline;
+}
+.about-container-div{
+  float: left;
+  left: 33%;
+  position: relative;
+  margin-top: 5%;
+  max-width: 600px;
+  color: #192857;
+}
+
+.image-container{
+  float: left;
+  width: 320px;
+  height: 240px;
+  display: inline;
+}
+
+a:link{
+  color:#cdb87d;
+  text-decoration: none;
+}
+
+a:visited{
+  color:#cdb87d;
+  text-decoration: none;
+}
+
+a:hover{
+  font-weight: bold;
+}
+
+.title-text{
+  display:block;
+  text-align:center;
+  padding-bottom: -20rem;
+  background-color: #192857;
+  color: #cdb87d;
+}
+
+#mainContent{
+  margin-left: 1em;
+}
+
+#contentBody{
+  background: url(../images/cathy.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+.contentList{
+  list-style: square;
+  display: list-item;
+  overflow: visible;
+}
+
+#titleNavBox{
+  border-bottom:2px solid #000000;
+}
+
+#formTitle{
+  text-align: center;
+  color: #cdb87d;
+}
+
+#successHolder{
+  text-align: center;
+  margin-top: 0;
+  font-size: 1.2em;
+  color: #192857;
+}
+
+#errorHolder{
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #192857;
+}
+
+#formTitle{
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #192857;
+}
+
+/*CSS for Resume*/
+#resumeContainer{
+  text-align: center;
+  margin-top: 1%;
+}
+
+#resumeHead{
+  text-align: center;
+  color: #192857;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+#resumeFrame{
+  border: 0;
+  background-color: #D3D3D3;
+}
+/*Based on a stackoverflow example but not copy pasted, done personally*/
+/*Everything below here is for the contact form*/
+#innerForm{
+  background-color:#484848
+  padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 450px;
+	float: left;
+	left: 52%;
+	position: absolute;
+  margin-top:30px;
+	margin-left: -260px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.textbox-input{
+  color:#3c3c3c;
+  font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	box-sizing: border-box;
+  border: 3px solid #cdb87d;
+}
+
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#comment{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+  font-family: "palatino linotype";
+  width: 100%;
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+input:focus{
+  outline: none;
+  border-color: #192857;
+}
+
+.about-button:hover{
+	background-color: #cdb87d;
+	color: #192857;
+}
+
+.about-button{
+	float:left;
+	width: 100%;
+	border: #cdb87d solid 4px;
+	cursor:pointer;
+	background-color: #192857;
+	color:#cdb87d;
+	font-size:24px;
+	padding-top:20px;
+	padding-bottom:20px;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}

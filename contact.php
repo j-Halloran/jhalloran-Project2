@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta author="Jake Halloran">
+    <title>Personal Site: Jake Halloran</title>
+    <link rel="stylesheet" href="./css/projectCSS.css">
+  </head>
+
+  <body id="contactBody">
+    <header id="header">
+      <div id="titleNavBox">
+        <div id="titleDiv">
+          <h1 class="title-text">
+            Jake Halloran <br>Programmer and UPITT Student
+          </h1>
+        </div>
+
+        <div id="navId">
+          <nav>
+            <ul>
+              <li id="navBar">
+                <a href="index.php"> Home </a>
+                <a href="resume.php"> Resume </a>
+                <a href="contact.php"> Contact </a>
+                <a href="https://github.com/j-Halloran"> GitHub </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div id="formHolder">
+      <div id="innerForm">
+        <form name="name-form" method="get" action="/" id="commentForm">
+            <input id="name" name="name-field" class="textbox-input" type="text" placeholder="First and Last Name" autofocus="autofocus"><br>
+            <input id="email" name="email-field" class="textbox-input" type="text" placeholder="Email Address"><br>
+            <textarea id="comment" name="comment-field" class="textbox-input" type="text" placeholder="Enter your Comment Here"></textarea><br>
+            <input id="submitButton" class="about-button" name="Submit" type="submit">
+        </form>
+      </div>
+    </div>
+
+    <div id="formTitle">
+      <p id="titlePara"><br>Enter Your Contact Information</p>
+    </div>
+
+    <div id="errorHolder">
+      <p id="nameError"><br>You Must Enter A Name</p>
+
+      <p id="emailError"><br>You Must Enter An Email</p>
+
+      <p id="emailFormatError"><br>Your email must contain an @ symbol</p>
+
+      <p id="commentError"><br>You Must Enter A Comment</p>
+
+    </div>
+
+    <div id="successHolder">
+      <p id="successPara"><br>Thanks, I will get back to you soon!</p>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./js/project1_form.js"></script>
+  </body>
+</html>
