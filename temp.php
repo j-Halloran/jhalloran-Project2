@@ -1,4 +1,18 @@
-$(document).ready(function(){
+<div id="interestsPicture1" class ="image-container">
+  <img src="./images/football.jpg" alt="Football Picture" id="footballPic"></img>
+</div>
+<div id="otherInterests" class="about-container-div">
+  <div id="interestsPicture" class ="image-container">
+    <img src="./images/football.jpg" alt="Football Picture" id="footballPic"></img>
+  </div>
+
+  <p class="content-para">
+    Outside of school work and coding my interests mostly include football and eating.
+    Honestly, probably excessive amounts of both. As far as life goals, I generally am just
+    trying to make it one day at a time.
+</div>
+
+
 /*  //Hide the interests and languages sections
   $("#languagesDiv").hide();
   $("#otherInterests").hide();
@@ -34,20 +48,3 @@ $(document).ready(function(){
   });
 
 */
-  //Event listener for search
-  $("#interestsForm").submit(function(event){
-      //Use ajax to pass form data without a page refresh
-      $.ajax({
-            type: 'post',
-            url: './php/interest.php',
-            data: $('#searchBar').val(),
-            success: function (response) {
-              $("#intResponsePara").text(response);
-              $("#intResponsePara").show();
-              $('#searchBar').val('');
-            }
-      });
-
-    return false; //dont refresh page
-  });
-});
