@@ -430,17 +430,8 @@ fieldset[disabled] .btn-success.active {
 /*Based on a stackoverflow example but not copy pasted, done personally*/
 /*Everything below here is for the contact form*/
 #innerForm{
-  background-color:#484848
-  padding-left:35px;
-	padding-right:35px;
-	padding-top:35px;
-	padding-bottom:50px;
-	width: 450px;
-	float: left;
-	left: 53%;
-	position: absolute;
-  margin-top:30px;
-	margin-left: -260px;
+    margin: 0 auto;
+  	max-width: 450px;
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
 }

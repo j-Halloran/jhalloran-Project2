@@ -178,7 +178,7 @@
                 </div>
             </div>
             <div class="row">
-              <div id="formHolder">
+              <div id="formHolder" class="col-lg-12 text-center">
                 <div id="innerForm">
                   <form name="name-form" method="get" action="/" id="commentForm">
                       <input id="name" name="name-field" class="textbox-input" type="text" placeholder="First and Last Name" autofocus="autofocus"><br>
