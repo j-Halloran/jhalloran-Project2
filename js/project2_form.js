@@ -3,7 +3,7 @@ $(document).ready(function(){
   $("#errorHolder").hide();
   $("#successHolder").hide();
   $("#formTitle").show();
-
+  $("html, body").animate({ scrollTop: 0 }, "slow");
   //Event listener for submit button
   $("#commentForm").submit(function(event){
     if(verifyForm()){

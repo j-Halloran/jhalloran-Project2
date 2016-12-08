@@ -22,7 +22,6 @@
               <li id="navBar">
                 <a href="index.php"> Home </a>
                 <a href="resume.php"> Resume </a>
-                <a href="contact.php"> Contact </a>
                 <a href="https://github.com/j-Halloran"> GitHub </a>
               </li>
             </ul>

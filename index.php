@@ -6,16 +6,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Personal Website for Jake Halloran">
+    <meta name="author" content="Jake Halloran">
 
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title>Jake Halloran - Personal Site</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
+    <link href="css/ProjectCSS.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -60,7 +60,7 @@
                         <a href="#contact">Contact</a>
                     </li>
                     <li class="page-scroll">
-                      <a href="resume.php">Resume</a>
+                      <a href="#portfolio">Resume</a>
                     </li>
                     <li class="page-scroll">
                       <a href ="https://www.github.com/j-halloran">GitHub</a>
@@ -127,7 +127,7 @@
                     <p>Search below to find things that I consider my favorite in a category (ex food or book or album)</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>Eventually, this will show images of what is being returned, just have not added the pictures yet so placeholder text all around!</p>
+                    <p>On top of what is listed below, generally I am down to talk about anything even remotely techy or involving the Steelers or Penguins.</p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                   <div id="interestsFormHolder">
@@ -142,6 +142,31 @@
               </div>
           </div>
     </section>
+
+    <!-- Resume Grid Section -->
+    <section id="portfolio" class="success">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Resume</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/safe.png" class="img-responsive" alt="my resume">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Contact Section -->
     <section id="contact">
@@ -192,6 +217,32 @@
         <a class="btn btn-primary" href="#page-top">
             <i class="fa fa-chevron-up"></i>
         </a>
+    </div>
+
+
+    <!-- Resume Holder -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Resume</h2>
+                            <hr class="star-primary">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="resumeContainer">
+              <iframe id="resumeFrame" src="https://drive.google.com/file/d/0Byj-EsQtcQr8Y19RbUswOHpKb2M/preview" width="1280" height="960" seamless="seamless"></iframe>
+            </div>
+        </div>
     </div>
 
     <!-- jQuery -->
