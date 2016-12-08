@@ -1,0 +1,23 @@
+Project 2 Changes - Jake Halloran
+
+  For project 1, my website while technically functional and requirements fulfilling, was simply just
+ugly, nonresponsive, and sort of pointless. This time around however, most all of that has done a complete
+180 degree change. Through extensive use of the bootstrap template freelancer to handle portions of the CSS
+I am terrible at I was able to make a site that actually lives up to my expectations of what proper web design
+looks like. The inclusion of the ability to auto center elements and handle page resizing much nicer than my
+attempts of margin: 0 auto; means that top to bottom the site looks and feels better. Other than just CSS changes,
+this new and improved site makes proper use of PHP. For my first site, I technically had some PHP but all it
+did was handle a contact form by writing the unmodified JSON object to disk with out even stripping the data
+headers. This time around however, both a responsive search bar and a new iteration of my attempt at a contact
+form utilize PHP data storage the correct way. Both the search and contact use ajax to post the data to a PHP
+function that opens a connection to the database and creates the database and table if it doesn't exist and if
+it does merely uses semantic PHP mysqli objects to perform all of the storage and loading operations. As far as
+javascript and jquery goes, other than the addition of the necessary js files that happily come with bootstrap,
+not much was changed. Frankly, my jquery was by far the most functional part of the site the first time around
+and outside of a few changes to the ajax call and removal of functions operating on no longer existing objects,
+my jquery remains remarkably intact despite the migration to a single page design. Finally, the sites content
+is infinitely better than it was for project part 1. Unlike the first project where I had a few buttons that
+showed tiny snippets of content and other pages to show a contact form and resume iFrame, I have now changed
+everything to exist on a single page and therefore look much more complete. Additionally, the addition of the
+interests search means that much more content about myself is immediately available than on my first site, thus
+not only making the content look nicer but also deepening it.
