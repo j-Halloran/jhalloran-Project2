@@ -1,11 +1,8 @@
 # Jake Halloran CS 1520 Project 2
-3 Pages, About Me, a google docs hosted resume, and a basic contact form
-The Contact form relies on ajax and php therefore it was tested using XAMPP for windows
-and chrome 51 for which it works.
+Single page powered by the foundation page for bootstrap with heavy modifications by me.
+The Contact form and search relies on ajax and php therefore it was tested using XAMPP for windows
+and the newest chrome build for which it works.
 
 Notes:
-  Index page content was done last and therefore is very sparse comparatively
-  Additionally, index page is not at all responsive. Viewing the form and my resume may
-  work in non full screen 1080p browsers, but the index most certainly does not. It does
-  look fine in Chrome and Edge at 1080p full screen but I would not be surprised if it broke
-  under that width wise.
+  Pretty sure the php and CSS should be responsive everywhere, but wouldn't be too surprised if
+  something like the contact form ends up running away on window resizing.
