@@ -55,12 +55,12 @@
                     </li>
                     <li class="page-scroll">
                         <a href="#interests">Interests</a>
+                    </li>                    
+                    <li class="page-scroll">
+                      <a href="#portfolio">Resume</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#contact">Contact</a>
-                    </li>
-                    <li class="page-scroll">
-                      <a href="#portfolio">Resume</a>
                     </li>
                     <li class="page-scroll">
                       <a href ="https://www.github.com/j-halloran">GitHub</a>
