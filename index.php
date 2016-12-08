@@ -55,7 +55,7 @@
                     </li>
                     <li class="page-scroll">
                         <a href="#interests">Interests</a>
-                    </li>                    
+                    </li>
                     <li class="page-scroll">
                       <a href="#portfolio">Resume</a>
                     </li>
@@ -63,7 +63,7 @@
                         <a href="#contact">Contact</a>
                     </li>
                     <li class="page-scroll">
-                      <a href ="https://www.github.com/j-halloran">GitHub</a>
+                      <a href ="https://www.github.com/j-halloran" target="_blank">GitHub</a>
                     </li>
                 </ul>
             </div>
